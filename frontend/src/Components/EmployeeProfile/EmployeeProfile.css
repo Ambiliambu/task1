@@ -1,0 +1,20 @@
+.img{
+    width: 200px;
+    height:200px;
+}
+
+   [class*="col-"] {
+    width: 100%;
+  }
+  [class*="col-"] {
+    float: left;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+   
+    .col-3 {width: 25%;}
+   
+    .col-9 {width: 75%;}
+   
+  }
